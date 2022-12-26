@@ -78,19 +78,73 @@ main {
   height: 532px;
   background-color: #edf2ec;
 }
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1222px;
+  height: 532px;
+  margin: 0 auto;
+  padding: 0;
+}
+.welcomesection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1222px;
+  height: 407.36px;
+  margin: 0 auto;
+  padding: 0;
+}
+.welcomesection img {
+  width: 448.8px;
+  height: 407.36px;
+}
+.welcome-text {
+  width: 549px;
+  height: 340px;
+  margin: 0;
+  padding: 0;
+}
+.welcome-text h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+  margin: 0;
+  margin-bottom: 45px;
+  padding: 0;
+}
+.colortext {
+  color: #499a18;
+}
+.welcome-text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+  margin: 0;
+  margin-bottom: 45px;
+  padding: 0;
+}
+.welcome-text button {
+  color: #000000;
+  width: 158px;
+  height: 44px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  border: 2px solid #e06733;
+  border-radius: 10px;
+}
 
 /*
-}
-h1 {
-  margin: 0;
-  margin-left: 22px;
-  padding: 0;
-  
-  color: #000000;
-}
-
-}
-
 footer {
   background-color: rgb(188, 16, 108);
 }
