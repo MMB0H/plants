@@ -87,7 +87,7 @@ main {
   margin: 0 auto;
   padding: 0;
 }
-.welcomesection {
+.welcome-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -96,7 +96,7 @@ main {
   margin: 0 auto;
   padding: 0;
 }
-.welcomesection img {
+.welcome-section img {
   width: 448.8px;
   height: 407.36px;
 }
@@ -143,7 +143,57 @@ main {
   border: 2px solid #e06733;
   border-radius: 10px;
 }
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 666px;
+  margin: 0 auto;
+  padding: 0;
+}
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1222px;
+  height: 479px;
+  margin: 0 auto;
+  padding: 0;
+}
+.about-text {
+  width: 605px;
+  height: 350px;
+  margin: 0;
+  padding: 0;
+}
+.about-text h2 {
+  color: #e06733;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  width: 463px;
+}
+.about-text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  color: #636060;
+}
 
+.about-section img {
+  width: 464px;
+  height: 479px;
+}
 /*
 footer {
   background-color: rgb(188, 16, 108);
