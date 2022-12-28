@@ -31,7 +31,7 @@ header {
   justify-content: flex-start;
   width: 50%;
 }
-.logo img {
+.logo-img {
   height: 20px;
   width: 20px;
 }
@@ -96,7 +96,7 @@ main {
   margin: 0 auto;
   padding: 0;
 }
-.welcome-section img {
+.welcome-section-img {
   width: 448.8px;
   height: 407.36px;
 }
@@ -189,7 +189,7 @@ main {
   padding: 0;
   color: #636060;
 }
-.about-section img {
+.about-section-img {
   width: 464px;
   height: 479px;
 }
@@ -242,6 +242,7 @@ main {
   font-size: 20px;
   line-height: 26px;
   color: #e06733;
+  padding: 0;
 }
 .cards-service {
   display: flex;
@@ -282,7 +283,6 @@ main {
   height: 560px;
   margin: 0 auto;
   padding: 0;
-  background-color: aqua;
 }
 .prices-wrapper {
   width: 1222px;
@@ -290,20 +290,15 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 0 auto;
-  padding: 0;
+  margin: auto;
   margin-top: 40px;
-  background-color: rgb(186, 38, 75);
+  padding: 0;
 }
 .price-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50%;
   height: 391px;
-  background-color: #a95e3f;
-  margin: 0;
-  padding: 0;
 }
 .price-container h2 {
   font-family: "Inter";
@@ -311,7 +306,6 @@ main {
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
-
   color: #000000;
   margin: 0;
   padding: 0;
@@ -319,30 +313,43 @@ main {
 .box {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
   width: 332px;
   height: 282px;
-  border: 1px #717171;
+  border: 1px solid #d9d9d9;
   border-radius: 10px;
 }
-.box button {
+.box-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 250px;
   height: 50px;
   background: #edf2ec;
   border-radius: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
 }
 .text-img-price {
-  width: 50%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  background-color: #57d7ca;
+  width: 50%;
+  height: 100%;
 }
 .text-price {
-  background-color: rgb(152, 206, 50);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 452px;
+  height: 191px;
 }
 .text-price h2 {
   font-family: "Inter";
@@ -352,10 +359,12 @@ main {
   line-height: 50px;
   text-align: right;
   color: #000000;
+  margin: 0;
+  padding: 0;
 }
 .text-price button {
   width: 162px;
-  height: 50px;
+  height: 51px;
   font-family: "Inika";
   font-style: normal;
   font-weight: 700;
@@ -363,30 +372,17 @@ main {
   line-height: 26px;
   text-align: center;
   color: #e06733;
-  border: 1px #e06733;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 .colortext2 {
   color: #499a18;
 }
-.prices-wrapper img {
-  width: 152px;
-  height: 174.99px;
+.text-img-price img {
+  width: 175px;
+  height: 152px;
 }
-/*
-footer {
-  background-color: rgb(188, 16, 108);
-}
-.welcome {
-  background-color: #edf2ec;
-}
-.service {
-  background-color: #edf2ec;
-}
-.contacts {
-  background-color: #edf2ec;
-}
-
-footer {
-  width: 100%;
-}
-*/ ;
