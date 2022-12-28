@@ -11,7 +11,6 @@ body {
   width: 100%;
   margin: auto;
 }
-
 header {
   width: 100%;
   height: 134px;
@@ -74,9 +73,7 @@ header {
   color: #e06733;
 }
 main {
-  width: 100%;
-  height: 532px;
-  background-color: #edf2ec;
+  background-color: #ffffff;
 }
 .welcome {
   display: flex;
@@ -86,6 +83,7 @@ main {
   height: 532px;
   margin: 0 auto;
   padding: 0;
+  background-color: #edf2ec;
 }
 .welcome-section {
   display: flex;
@@ -243,6 +241,7 @@ main {
   line-height: 26px;
   color: #e06733;
   padding: 0;
+  background-color: #edf2ec;
 }
 .cards-service {
   display: flex;
@@ -258,6 +257,11 @@ main {
 .card {
   width: 330px;
   height: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #e3e1d5;
+}
+.card:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .card h2 {
   font-family: "Inter";
@@ -385,4 +389,101 @@ main {
 .text-img-price img {
   width: 175px;
   height: 152px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 1440px;
+  height: 550px;
+  background-color: #edf2ec;
+}
+.contact-content {
+  display: flex;
+  justify-content: space-around;
+  width: 1222px;
+  height: 497px;
+}
+.contact-content h2 {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499a18;
+  margin: 0;
+  padding: 0;
+}
+.contact-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  height: 50px;
+  background-color: #d6e7d2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #717171;
+  margin-top: 88px;
+  padding-left: 20px;
+  padding-right: 35px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1440px;
+  height: 130px;
+}
+.footer-content {
+  width: 1222px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.ico-year-git {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 170px;
+  height: 50px;
+}
+.ico-year-git h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+}
+.ico-year-git a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  text-decoration: none;
+}
+.rss h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+}
+.icos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 188px;
+  height: 50px;
 }
