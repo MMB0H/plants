@@ -405,7 +405,7 @@ main {
   width: 175px;
   height: 152px;
 }
-.contact {
+.contacts {
   display: flex;
   justify-content: center;
   align-items: flex-end;
