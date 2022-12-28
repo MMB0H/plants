@@ -145,7 +145,6 @@ main {
   background-color: #edf2ec;
   border: 2px solid #e06733;
   border-radius: 10px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .about {
   display: flex;
@@ -261,22 +260,32 @@ main {
   margin-top: 90px;
 }
 .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
   width: 330px;
   height: 450px;
   border-radius: 10px;
-  box-shadow: 0px 4px 4px #e3e1d5;
 }
-.card:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.card-text {
+  width: 330px;
+  height: 100px;
+  text-align: center;
+  border-left: 2px solid #E3E1D5;
+  border-right: 2px solid #E3E1D5;
+  border-bottom: 2px solid #E3E1D5;
+  border-radius: 0  0 10px 10px;
 }
 .card h2 {
+  width: 330px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
   color: #e06733;
-  text-align: center;
+  
 }
 .card p {
   font-family: "Inter";
@@ -286,6 +295,7 @@ main {
   line-height: 20px;
   color: #717171;
   text-align: center;
+  
 }
 .prices {
   display: inline-block;
@@ -384,7 +394,6 @@ main {
   color: #e06733;
   border: 1px solid #e06733;
   border-radius: 5px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: #ffffff;
   margin: 0;
   padding: 0;
